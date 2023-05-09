@@ -1,10 +1,10 @@
 model_config: algorithms/GSA/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
-grounded_checkpoint: algorithms/GSA/groundingdino_swint_ogc.pth
-sam_checkpoint: algorithms/GSA/sam_vit_h_4b8939.pth
-input_video_name: algorithms/GSA/assets/data/2023-1-11_20.mp4
+grounded_checkpoint: algorithms/GSA/groundingdino.pth
+sam_checkpoint: algorithms/GSA/sam.pth
+input_video_name: /heop/mospace/data/2023_1_11_swim/2023-1-11 14.mp4
 output_dir: "algorithms/GSA/outputs"
-every_n_frames: 60
+every_n_frames: 1
 box_threshold: 0.3
 text_threshold: 0.25
-text_prompt: "person"
+text_prompt: "swimmer"
 device: "cuda"
